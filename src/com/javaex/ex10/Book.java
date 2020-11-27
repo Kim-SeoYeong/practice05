@@ -38,7 +38,7 @@ public class Book {
 		this.author = author;
 	}
     
-	public void rent(int bookNo) {
+	public void rent() {
 		this.stateCode = 0;
 		System.out.println(this.title + "이(가) 대여 됐습니다.");
 	}
@@ -52,6 +52,8 @@ public class Book {
 					", 대여 유무 : 대여중");
 		}
 	}
+
+
     
     
 }
